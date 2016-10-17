@@ -1,0 +1,44 @@
+@import "bower_components/bootstrap/less/bootstrap.less";
+//@import "bower_components/bootstrap/less/theme.less";
+@import "bower_components/font-awesome/less/font-awesome.less";
+@fa-font-path: "bower_components/font-awesome/fonts";
+
+/* Component LESS */
+@import "partial/home/home.less";
+@import "partial/sidebar/sidebar.less";
+@import "partial/main/main.less";
+@import "partial/menu/menu.less";
+@import "partial/rezervacija/rezervacija.less";
+@import "partial/kontakt/kontakt.less";
+/* Add Component LESS Above */
+
+/* Required for Angular UI Bootstrap */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+
+
+.sidebar-container{
+
+    width:400px;
+    height: 100vh;
+    background-color: #262526;
+    color: #fff;
+    float: left;
+    margin-left:-400px;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+.main-container{
+
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    margin-left: 0px;
+    height: 100vh;
+    background-color: inherit;
+
+
+}
