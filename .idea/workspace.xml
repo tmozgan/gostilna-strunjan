@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="25e0a48f-a9ad-40ce-a715-c661b8ebadb6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.less" afterPath="$PROJECT_DIR$/app.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial/home/home.html" afterPath="$PROJECT_DIR$/partial/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial/home/home.js" afterPath="$PROJECT_DIR$/partial/home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial/home/home.less" afterPath="$PROJECT_DIR$/partial/home/home.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial/kontakt/kontakt.html" afterPath="$PROJECT_DIR$/partial/kontakt/kontakt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial/rezervacija/rezervacija.html" afterPath="$PROJECT_DIR$/partial/rezervacija/rezervacija.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial/rezervacija/rezervacija.less" afterPath="$PROJECT_DIR$/partial/rezervacija/rezervacija.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial/sidebar/sidebar.html" afterPath="$PROJECT_DIR$/partial/sidebar/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial/sidebar/sidebar.less" afterPath="$PROJECT_DIR$/partial/sidebar/sidebar.less" />
     </list>
     <ignored path="gostilnaassignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tm-parallax.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tm-parallax.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/directive/tm-parallax/tm-parallax.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -114,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rezervacija.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rezervacija.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partial/rezervacija/rezervacija.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="510">
               <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="43" />
               <folding />
             </state>
@@ -405,7 +394,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cms assignment" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editor.config.accepted" value="true" />
@@ -486,16 +475,16 @@
       <updated>1473973218773</updated>
       <workItem from="1473973220940" duration="53579000" />
       <workItem from="1476699040499" duration="34586000" />
-      <workItem from="1477392646499" duration="1104000" />
+      <workItem from="1477392646499" duration="2199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89269000" />
+    <option name="totallyTimeSpent" value="90364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="741" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20969023" sideWeight="0.5" order="3" side_tool="true" content_ui="combo" />
@@ -504,7 +493,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19958635" sideWeight="0.19852553" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29583976" sideWeight="0.80147445" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29583976" sideWeight="0.80147445" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -867,22 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directive/tm-parallax/tm-parallax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directive/tm-parallax/tm-parallax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partial/home/home.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -909,8 +882,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partial/rezervacija/rezervacija.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="510">
           <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directive/tm-parallax/tm-parallax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directive/tm-parallax/tm-parallax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
