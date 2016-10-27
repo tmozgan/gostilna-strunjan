@@ -16,7 +16,6 @@ angular.module('gostilnaassignment').config(function($stateProvider, $urlRouterP
         }
     });
 
-
     $stateProvider.state('Gostilna-Strunjan.home', {
         url: '/home',
         views:{
@@ -55,8 +54,18 @@ angular.module('gostilnaassignment').config(function($stateProvider, $urlRouterP
             }
         }
     });
+
+    $stateProvider.state('Gostilna-Strunjan.choose-language', {
+        url: '/choose-language',
+        views:{
+            content:{
+                templateUrl: 'partial/choose-language/choose-language.html',
+                controller:'ChooseLanguageCtrl'
+            }
+        }
+    });
     /* Add New States Above */
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/choose-language');
 
 });
 

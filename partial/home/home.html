@@ -1,12 +1,13 @@
 <!--1. parallax-->
-<div class="parallax-window" id="top-parallax" data-speed="0,3" data-parallax="scroll" data-image-src="./img/10.JPG">
+<div class="parallax-window main-window" tm-parallax tm-image-path="/img/10.jpg">
 
     <div class="top-title">
-        <h2 class="h2">Dobrodošli</h2>
+        <h2 class="h2">{{text.welcome}}</h2>
     </div>
 
     <div class="main-title">
-        <h1 class="h1" id="main-title-overlay">GOSTILNA STRUNJAN</h1>
+        <h1 class="h1" id="main-title-overlay">GOSTILNA STRUNJAN<br>
+        </h1>
 
     </div>
 
@@ -19,14 +20,12 @@
 
 <!--levi kontejner z(o nas, zvezdico, textom in linkom)-->
     <div class="left-content-container">
-        <div class="O-nas"><div class="left-content-container-h">O nas</div></div>
+        <div class="O-nas"><div class="left-content-container-h">{{text.about}}</div></div>
         <div class="sign"><h2 class="left-content-container-h">*</h2></div>
 
-        <p class="content">
-            Gostišče v avtokampu v Strunjanu vam nudi vse vrste hrane za zaključene družbe in večerje v dvoje. Prav tako gostimo manjše prireditve ter ostale dogodke.
-        </p>
+        <p class="content">{{text.content}}</p>
 
-        <a href="menu-3" class="menu-3" id="#menu-3" ui-sref="Gostilna-Strunjan.rezervacija">REZERVIRAJTE</a>
+        <a href="menu-3" class="menu-3" id="#menu-3" ui-sref="Gostilna-Strunjan.rezervacija">{{text.reservation}}</a>
     </div>
 
 <!--desni kontejner z slikami-->
@@ -41,13 +40,13 @@
 
 <!-- 2. parallax -->
 
-<div class="parallax-window" id="second-parallax" data-parallax="scroll" data-image-src="./img/3.JPG">
+<div class="parallax-2" id="second-parallax" tm-parallax tm-image-path="/img/3.jpg">
     <div class="second-main-title">
-        <h2 class="h2">Dobrote</h2>
+        <h2 class="h2">{{text.dobrote}}</h2>
     </div>
 
     <div class="second-title">
-        <h1 class="h1">KUHINJE</h1>
+        <h1 class="h1">{{text.kuhinje}}</h1>
     </div>
 </div>
 
@@ -69,24 +68,21 @@
 
 <!--desni kontejner z(nase dobrote, zvezdico, textom in linkom)-->
     <div class="right-content-container-second">
-        <div class="nase-dobrote"><div class="right-content-container-h-second">Naše jedi</div></div>
+        <div class="nase-dobrote"><div class="right-content-container-h-second">{{text.meals}}</div></div>
         <div class="sign"><h2 class="right-content-container-h-second">*</h2></div>
-        <div class="content-second">
-            Pri nas vam postrežemo z ribjimi specialitetami, jedi z žara, dnevno sveže pripravljene malice, kosila in večerje.
-        </div>
-        <a href="menu-3" class="menu-3" id="#menu-3" ui-sref="Gostilna-Strunjan.menu">OGLEJTE SI MENU</a>
+        <div class="content-second">{{text.secondcontent}}</div>
+        <a href="menu-3" class="menu-3" id="#menu-3" ui-sref="Gostilna-Strunjan.menu">{{text.seemenu}}</a>
     </div>
 
 </div>
 
-<div class="parallax-window" id="third-parallax" data-parallax="scroll" data-image-src="./img/8.JPG">
+<div class="parallax-3" id="third-parallax" tm-parallax tm-image-path="/img/8.jpg">
 </div>
 
-<div class="button-top"><a href="#top"></a></div>
+<div class="button-top" tm-arrow><a></a></div>
 
 <div class="last-container">
-    <p class="author" ><br/><br/><br/>Gostilna Strunjan &nbsp; • &nbsp; Strunjan 23, 6320 Portorož, Slovenija &nbsp; • &nbsp; Št.: 040-417-959<br/> <br/></p>
-
+    <p class="author" ><br/><br/><br/>Gostilna Strunjan &nbsp; • &nbsp; {{text.author}} &nbsp; • &nbsp; {{text.number}}.: 040-417-959<br/> <br/></p>
 
 </div>
 <!-- -->

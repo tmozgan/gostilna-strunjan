@@ -10,6 +10,9 @@
 @import "partial/menu/menu.less";
 @import "partial/rezervacija/rezervacija.less";
 @import "partial/kontakt/kontakt.less";
+@import "directive/tm-parallax/tm-parallax.less";
+@import "directive/tm-arrow/tm-arrow.less";
+@import "partial/choose-language/choose-language.less";
 /* Add Component LESS Above */
 
 /* Required for Angular UI Bootstrap */
@@ -25,7 +28,7 @@
     color: #fff;
     float: left;
     margin-left:-400px;
-    position: absolute;
+    position: fixed;
     z-index: 1;
 
 
@@ -33,12 +36,8 @@
 
 .main-container{
 
-    width: 100%;
+    top:0;
     overflow: auto;
-    position: absolute;
-    margin-left: 0px;
-    height: 100vh;
-    background-color: inherit;
-
+    width: 100%;
 
 }

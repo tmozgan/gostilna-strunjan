@@ -1,6 +1,12 @@
-angular.module('gostilnaassignment').controller('HomeCtrl',function($scope){
+angular.module('gostilnaassignment').controller('HomeCtrl',function($scope, dataService){
 
+    $scope.text = dataService.si;
 
+    $scope.setLanguage = function(lang){
+
+        $scope.text = dataService[lang];
+
+    };
 
     var isHidden = false;
 
