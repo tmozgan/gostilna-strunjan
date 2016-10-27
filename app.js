@@ -69,7 +69,7 @@ angular.module('gostilnaassignment').config(function($stateProvider, $urlRouterP
 
 });
 
-angular.module('gostilnaassignment').run(function($rootScope) {
+angular.module('gostilnaassignment').run(function($rootScope, dataService) {
 
     $rootScope.safeApply = function(fn) {
         var phase = $rootScope.$$phase;

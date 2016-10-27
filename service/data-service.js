@@ -1,4 +1,4 @@
-angular.module('gostilnaassignment').factory('dataService',function() {
+angular.module('gostilnaassignment').factory('dataService',function($rootScope) {
 
     var dataService = {
         si:{
@@ -45,7 +45,7 @@ angular.module('gostilnaassignment').factory('dataService',function() {
         }
     };
 
-
+    $rootScope.lang = dataService.si;
 
     return dataService;
 });

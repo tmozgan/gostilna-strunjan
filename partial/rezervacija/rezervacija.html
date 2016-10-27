@@ -1,12 +1,10 @@
-<div
-     class="parallax-window main-window" tm-parallax tm-image-path="/img/11.jpg"
->
+<div class="parallax-window main-window" tm-parallax tm-image-path="/img/11.jpg">
     <div class="second-main-title">
         <h2 class="h2">Naredite</h2>
     </div>
 
     <div class="second-title">
-        <h1 class="h1">REZERVACIJO</h1>
+        <h1 class="h1">{{lang.welcome}}</h1>
     </div>
     <div class="line"></div>
 
@@ -32,15 +30,16 @@
             </div>
         </div>
         <div class="right-rezervacija">
-            <form action="action_page.php">
+            <form>
+
                <div class="fullname">
-                <input type="text" id="fname" name="firstname" placeholder="FIRST NAME">
-                <input type="text" id="lname" name="lastname" placeholder="LAST NAME">
+                <input type="text" id="fname" ng-model="reservation.name" name="firstname" placeholder="FIRST NAME">
+                <input type="text" id="lname" ng-model="reservation.surname" name="lastname" placeholder="LAST NAME">
                </div>
-                <input type="text" id="number" name="phonenum" placeholder="PHONE NUMBER">
-                <input type="text" id="email" name="emailname" placeholder="EMAIL">
-                <textarea id="textarea" placeholder="ABOUT..."></textarea>
-                <input type="submit" id="submit" value="SEND">
+                <input type="text" id="number" ng-model="reservation.phone" name="phonenum" placeholder="PHONE NUMBER">
+                <input type="text" id="email" ng-model="reservation.email" name="emailname" placeholder="EMAIL">
+                <textarea id="textarea" ng-model="reservation.message" placeholder="ABOUT..."></textarea>
+                <input type="submit" ng-if="!sent" ng-disabled="sending" ng-click="sendMail()" id="submit" value="{{sending?'Sending':'Send'}}">
 
             </form>
         </div>
@@ -54,6 +53,6 @@
 <div class="button-top" tm-arrow><a></a></div>
 
 <div class="last-container">
-    <p class="author" ><br/><br/><br/>Gostilna Strunjan &nbsp; • &nbsp; {{text.author}} &nbsp; • &nbsp; {{text.number}}.: 040-417-959<br/> <br/></p>
+    <p class="author" ><br/><br/><br/>Gostilna Strunjan &nbsp; • &nbsp; {{lang.author}} &nbsp; • &nbsp; {{lang.number}}.: 040-417-959<br/> <br/></p>
 
 </div>
