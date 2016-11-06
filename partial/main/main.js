@@ -24,6 +24,7 @@ angular.module('gostilnaassignment').controller('MainCtrl',function($scope){
             $topMenu.css({
                 'margin-left': '0px',
                 'transition': 'ease 1s'
+                
 
             });
             $menu.css({
@@ -43,7 +44,9 @@ angular.module('gostilnaassignment').controller('MainCtrl',function($scope){
             });
             $menu.css({
                 'transition': 'ease 1s',
-                'color': '#333'
+                'border-radius': '50px',
+                'background-color': '#262526',
+                'padding': '20px'
 
             }).removeClass( "icon-cross" ).addClass('icon-menu2');;
 
@@ -91,7 +94,7 @@ $(window).on('scroll', function(){
 
         $('.toggle-nav').css({
             'background-color':'#fff',
-            color:'#333',
+            color:'#262526',
 
         });
 

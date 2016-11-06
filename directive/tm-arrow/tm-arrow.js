@@ -23,9 +23,10 @@ angular.module('gostilnaassignment').directive('tmArrow', function() {
                 if(scrollTop > 1850){
 
                     $('.button-top').css({
-                        'margin-top':'-145px',
-                        transition:'all 0.5s',
-                        opacity: '1'
+                        'margin-top':'-135px',
+                        'transition':'all 0.5s',
+                        'opacity': '1',
+                        
 
                     });
 
@@ -33,8 +34,8 @@ angular.module('gostilnaassignment').directive('tmArrow', function() {
 
                     $('.button-top').css({
                         'margin-top':'-90px',
-                        zIndex: '-10',
-                        opacity: '0'
+                        'zIndex': '-10',
+                        'opacity': '0'
 
                     });
                 }

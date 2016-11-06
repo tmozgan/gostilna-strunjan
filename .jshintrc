@@ -14,6 +14,7 @@
     "globals": {
         "jQuery": true,
         "angular": true,
+        "Pikaday":true,
         "console": true,
         "$": true,
         "_": true,
