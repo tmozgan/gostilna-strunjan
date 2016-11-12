@@ -22,9 +22,9 @@ angular.module('gostilnaassignment').controller('MainCtrl',function($scope){
         if(isOpen) {
 
             $topMenu.css({
-                'margin-left': '0px',
+                'margin-left': '-10px',
                 'transition': 'ease 1s'
-                
+
 
             });
             $menu.css({
@@ -38,7 +38,7 @@ angular.module('gostilnaassignment').controller('MainCtrl',function($scope){
         } else {
 
             $topMenu.css({
-                'margin-left': '-400px',
+                'margin-left': '-410px',
                 'transition': 'ease 1s'
 
             });
