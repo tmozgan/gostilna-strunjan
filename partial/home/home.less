@@ -187,7 +187,11 @@ body{
 
 .right-photo-container{
 
-    margin: 0px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
 
@@ -196,8 +200,7 @@ body{
     height: 340px;
     width: 30%;
     display: inline-block;
-    margin: 70px 15px 50px 30px;
-    float: left;
+    margin: 70px 15px 50px 0px;
     background-image: url(img/1.jpg);
     position: static;
     background-size: cover;
@@ -208,8 +211,7 @@ body{
     height: 340px;
     width: 30%;
     display: inline-block;
-    margin: 70px 30px 50px 15px;
-    float: left;
+    margin: 70px 0px 50px 15px;
     background-image: url(img/2.jpg);
     position: static;
     background-size: cover;
@@ -267,19 +269,23 @@ body{
 
 .top-photo-container{
 
-    margin: 70px 0px 25px 130px;
+    margin: 70px 0px 25px 0px;
     height: 170px;
     width: 80%;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .bottom-photo-container{
 
-    margin: 0px 0px 50px 130px;
+    margin: 0px 0px 50px 0px;
     height: 170px;
     width: 80%;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photo-content-3{
@@ -288,7 +294,6 @@ body{
     width: 40%;
     display: inline-block;
     margin: 0px 15px 0px 0px;
-    float: left;
     background-image: url(img/4.jpg);
     background-size: cover;
 }
@@ -299,7 +304,6 @@ body{
     width: 40%;
     display: inline-block;
     margin: 0px 0px 0px 15px;
-    float: left;
     background-image: url(img/5.jpg);
     background-size: cover;
 }
@@ -310,7 +314,6 @@ body{
     width: 40%;
     display: inline-block;
     margin: 0px 15px 0px 0px;
-    float: left;
     background-image: url(img/6.jpg);
     background-size: cover;
 }
@@ -321,7 +324,6 @@ body{
     width: 40%;
     display: inline-block;
     margin: 0px 0px 0px 15px;
-    float: left;
     background-image: url(img/7.jpg);
     background-size: cover;
 }
@@ -423,20 +425,11 @@ body{
     }
 }
 
-
-
-
-/* */
-
-
-
-
-
 @media (max-width: 900px) {
     .content-container{
 
         width: 100%;
-        height: 950px;
+        height: 900px;
         padding: 0px;
         background-color: #fff;
         margin: 0;
@@ -475,7 +468,6 @@ body{
 
         width: 100%;
         padding: 0;
-
         text-align: center;
         height: 450px;
         display: block;
@@ -489,8 +481,8 @@ body{
 @media (max-width: 900px) {
     .photo-content-1{
 
-        margin: 30px 15px 50px 30px;
-        width: 43%;
+        margin: 30px 15px 50px 0px;
+        width: 40%;
 
     }
 }
@@ -498,8 +490,8 @@ body{
 @media (max-width: 900px) {
     .photo-content-2{
 
-        margin: 30px 15px 50px 30px;
-        width: 43%;
+        margin: 30px 0px 50px 15px;
+        width: 40%;
 
     }
 }
@@ -520,6 +512,7 @@ body{
 
         width: 100%;
         padding: 0;
+        float: none;
         text-align: center;
         height: 450px;
         display: block;
@@ -539,5 +532,44 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .top-photo-container {
+
+    margin: 70px 0px 25px 0px;
+    height: 170px;
+    width: 100%;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .bottom-photo-container {
+
+        margin: 0px 0px 50px 0px;
+        height: 170px;
+        width: 100%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .nase-dobrote {
+
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 70px;
+        padding: 0;
+        color: #af8b52;
     }
 }
